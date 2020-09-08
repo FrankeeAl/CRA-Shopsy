@@ -20,3 +20,5 @@
   <li>Stripe</li>
 </ul>
 
+<h1>run this line to format all documents</h1>
+./node_modules/.bin/prettier --write "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}"

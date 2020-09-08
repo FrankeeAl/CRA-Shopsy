@@ -1,15 +1,9 @@
-import  React from 'react';
+import React from "react";
 
-export interface HomeProps {
-    
-}
- 
+export interface HomeProps {}
+
 const Home: React.SFC<HomeProps> = () => {
-    return ( 
-        <div>
-            This is a homepage!
-        </div>
-     );
-}
- 
+  return <div>This is a homepage!</div>;
+};
+
 export default Home;
