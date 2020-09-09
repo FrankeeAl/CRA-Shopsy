@@ -4,11 +4,19 @@ interface ProductItem {
   photoUrl: string;
   index: number;
   itemId: string;
+  name: string;
+  hearts: number;
 }
-const ProductItem: React.FC<ProductItem> = ({ photoUrl, index, itemId }) => {
+const ProductItem: React.FC<ProductItem> = ({
+  photoUrl,
+  index,
+  itemId,
+  name,
+  hearts,
+}) => {
   return (
     <div className=" mb-4 p-3">
-      <div className="card card-cascade narrower">
+      <div className="card">
         {/* Card Image */}
         <div className="view view-cascade overlay">
           <Link to={"/item/" + itemId}>
@@ -24,20 +32,23 @@ const ProductItem: React.FC<ProductItem> = ({ photoUrl, index, itemId }) => {
 
         {/* Card body */}
         <div className="card-body card-body-cascade">
-          <h5 className="pink-text pb-2 pt-1">
-            <i className="fas fa-utensils"></i> Culinary
-          </h5>
-          <h4 className="font-weight-bold card-title">
-            Cheat day inspirations
-          </h4>
-          <p className="card-text">Ut enim ad minima veniam</p>
-          <button className="btn btn-default">
-            <i className="fas fa-shopping-cart mr-1"></i> Add to cart
-          </button>
+          <p className="card-text text-left">{name}</p>
         </div>
 
         {/* Card footer */}
-        <div className="card-footer text-muted text-center">2 days ago</div>
+        <div className=" card-footer text-muted text-center">
+          <div className="d-flex justify-content-around">
+            <div className="pink-text">
+              <i className="fas fa-heart"></i> {hearts}
+            </div>
+            <div className="text-primary">
+              <i className="fas fa-comments"></i>
+            </div>
+            <div className="text-default">
+              <i className="fas fa-shopping-cart"></i>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

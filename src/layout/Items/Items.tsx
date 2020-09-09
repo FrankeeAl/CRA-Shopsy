@@ -1,31 +1,54 @@
 import React, { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 import ProductItem from "../../components/Cards/Item";
 import axios from "axios";
 
-interface ItemProps {}
+interface itemsProps {
+  loading: boolean;
+  data: [];
+  path?: string;
+}
 
 function Item(): JSX.Element {
-  const [items, setItems] = useState([]);
+  const location = useLocation();
+  const [items, setItems] = useState<itemsProps>({
+    loading: true,
+    data: [],
+    path: "",
+  });
+
+  // Overwrite the document.title
+  if (location.pathname === "/items") {
+    window.document.title = "Shopsy Items";
+  }
 
   useEffect(() => {
     axios
       .get("items.json")
-      .then((res) => setItems(res.data))
+      .then((res) =>
+        setItems({
+          loading: false,
+          data: res.data,
+        })
+      )
       .catch((err) => console.log(err));
   }, []);
 
-  console.log("[Item] typeof items ->", typeof items);
-  console.log("[Item] items ->", items);
-
+  // Display loading before page render
+  if (items.loading) {
+    return <h1>Loading..</h1>;
+  }
   return (
     <div className="container">
       <div className="row row-cols row-cols-md-5">
-        {items.map((d: any, index: number) => {
+        {items.data.map((d: any, index: number) => {
           return (
             <ProductItem
               key={index}
               itemId={d.id}
               index={index}
+              name={d.content.name}
+              hearts={d.hearts}
               photoUrl={d.content.others.photoUrl}
             />
           );
