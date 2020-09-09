@@ -1,0 +1,19 @@
+.overlay {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 222221;
+  top: 0;
+  left: 0;
+  background: rgba(244, 67, 54, 0.9);
+}
+
+.overlayContent {
+  z-index: 222221;
+  position: relative;
+  top: 20%;
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}

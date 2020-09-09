@@ -16,12 +16,12 @@ const ProductItem: React.FC<ProductItem> = ({
 }) => {
   return (
     <div className=" mb-4 p-3">
-      <div className="card">
+      <div className="">
         {/* Card Image */}
         <div className="view view-cascade overlay">
           <Link to={"/item/" + itemId}>
             <img
-              style={{ height: "200px" }}
+              style={{ height: "250px" }}
               className="card-img-top"
               src={photoUrl}
               alt={`${index}`}
@@ -31,21 +31,22 @@ const ProductItem: React.FC<ProductItem> = ({
         </div>
 
         {/* Card body */}
-        <div className="card-body card-body-cascade">
-          <p className="card-text text-left">{name}</p>
-        </div>
+        <div className="p-3" style={{ fontSize: "13px" }}>
+          <div className="d-flex">
+            <p className="text-dark weight-300 text-left card-text">{name}</p>
+          </div>
 
-        {/* Card footer */}
-        <div className=" card-footer text-muted text-center">
-          <div className="d-flex justify-content-around">
-            <div className="pink-text">
-              <i className="fas fa-heart"></i> {hearts}
-            </div>
-            <div className="text-primary">
-              <i className="fas fa-comments"></i>
-            </div>
-            <div className="text-default">
-              <i className="fas fa-shopping-cart"></i>
+          <div className="d-flex justify-content-between mt-2">
+            <h4 className="text-dark weight-300">
+              <i className="fas fa-dollar-sign mr-1"></i>4022
+            </h4>
+            <div className="d-flex">
+              <h4 className="text-orange weight-300 mr-2">
+                <i className="fas fa-gift"></i>
+              </h4>
+              <h4 className="text-dark-2 weight-300">
+                <i className="fas fa-shopping-cart"></i>
+              </h4>
             </div>
           </div>
         </div>

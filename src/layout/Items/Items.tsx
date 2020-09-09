@@ -40,7 +40,13 @@ function Item(): JSX.Element {
   }
   return (
     <div className="container">
-      <div className="row row-cols row-cols-md-5">
+      <div
+        className="row row-cols 
+      row-cols-xl-4 
+      row-cols-lg-3
+      row-cols-md-2
+      row-cols-sm-2"
+      >
         {items.data.map((d: any, index: number) => {
           return (
             <ProductItem
