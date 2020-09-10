@@ -1,6 +1,6 @@
 <h2> E Commerce using CRA, Typescript and Redux </h2>
 <p>
-  Hello, I'm going to build Complete Fullstack E Commerce web application, this might get complicated as we go farther. Give stars and follow for more updates or code along with me. 
+  Hello, I'm going to build Complete Fullstack E Commerce web application, This might get complicated as we go farther. Give stars and follow for more updates or code along with me. 
 </p>
 
 
@@ -36,5 +36,7 @@
 
 </p>
 
-<h1>run this line to format all documents</h1>
-./node_modules/.bin/prettier --write "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}"
+<h3> Custom scripts </h3>
+<pre>
+  $ npm run format - format all documents 
+</pre>
