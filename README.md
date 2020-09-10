@@ -1,14 +1,15 @@
 ### Libraries involved
 <h3> Front end </h3>
-<ul>
-  <li>React</li>
-  <li>Typescript</li>
-  <li>React-redux</li>
-  <li>Redux</li>
-  <li>Framer-motion</li>
-  <li>React-router</li>
-  <li>Node sass</li>
-</ul>
+
+✅ React
+✅ Typescript
+✅ React-redux
+✅ Redux
+✅ Framer-motion
+✅ React-router
+✅ Node sass
+
+
 <h3> Backend </h3>
 <ul>
   <li>MongoDb</li>
