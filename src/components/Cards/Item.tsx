@@ -15,14 +15,14 @@ const ProductItem: React.FC<ProductItem> = ({
   hearts,
 }) => {
   return (
-    <div className="mb-4 p-2">
+    <div className="mb-4 p-3">
       <div className="">
         {/* Card Image */}
         <div className="view view-cascade overlay">
           <Link to={"/item/" + itemId}>
             <img
               style={{
-                height: "250px",
+                height: "220px",
                 borderTopRightRadius: "10px",
                 borderTopLeftRadius: "10px",
               }}

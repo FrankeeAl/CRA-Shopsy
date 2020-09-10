@@ -38,5 +38,5 @@
 
 <h3> Custom scripts </h3>
 <pre>
-  $ npm run format - format all documents 
+  $ npm run format #format all documents
 </pre>

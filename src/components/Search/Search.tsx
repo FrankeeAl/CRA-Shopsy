@@ -10,7 +10,7 @@ const CLOSEBTN_STYLE: any = {
   position: "absolute",
   top: "0",
   right: "0",
-  padding: "50px",
+  margin: "50px",
   cursor: "pointer",
 };
 const Search: React.SFC<SearchProps> = () => {

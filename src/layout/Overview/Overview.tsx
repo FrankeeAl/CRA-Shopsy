@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import ItemSuggestions from "../../components/Cards/ItemSuggestions";
+import Reviews from "../../components/Review/Review";
 
 interface itemsProps {
   loading: boolean;
   data: [];
   path?: string;
+  selectedItem?: string;
 }
 
 function Overview(props: any): JSX.Element {
@@ -12,9 +15,10 @@ function Overview(props: any): JSX.Element {
     loading: true,
     path: "/",
     data: [],
+    selectedItem: "",
   });
 
-  //On page mounted run this effect
+  // @title when page mounted run this effect
   useEffect(() => {
     axios
       .get("/items.json")
@@ -27,25 +31,39 @@ function Overview(props: any): JSX.Element {
       .catch((err) => console.log(err));
   }, []);
 
-  // Display loading before page render
+  // @title Display loading before page render
   if (items.loading) {
     return <h1>Loading..</h1>;
   }
-  // Filter data and select 1 only
+  // @title Filter data and select 1 only
+  // @data <item> and map its object
   const selectedItem: any = items.data.find((x: any) => {
     return x.id === props.match.params.id;
   });
-  // Set document.title to item name
+
+  // @title "Prototype of selectedItem for suggestions"
+  // @data <category> and select 1
+  const suggestionsData = items.data.filter((d: any) => {
+    return d.category === selectedItem.category && d.id != selectedItem.id;
+  });
+
+  // @title "Change title according to its product name"
+  // @data <category> name only
   if (selectedItem.id) {
     window.document.title = selectedItem.content.name;
   }
 
-  //Return
+  // @title return tsx
   return (
     <div>
-      <div className="container">
-        <div className="row p-5">
-          <div className="col-md-6 border">
+      {/* 
+         @title Preview item 
+         @data <selectedItem> only
+      */}
+      <div className="container-fluid">
+        <div className="row mt-1">
+          <div className="col-md-1" />
+          <div className="col-md-5">
             <div className="m-3">
               {items.loading ? (
                 <h1>Page is loading</h1>
@@ -59,7 +77,7 @@ function Overview(props: any): JSX.Element {
               )}
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md">
             <div className="text-left pl-3 pt-3">
               <h6 className="text-capitalize text-muted">
                 {selectedItem.gender === "men" ? (
@@ -82,11 +100,11 @@ function Overview(props: any): JSX.Element {
               </span>
               <span className="badge badge-pill badge-success">50% sale</span>
               <div className="d-flex pt-4 align-items-center">
-                <h1 className="mr-3">
+                <h1 className="mr-3 text-dark text-strong">
                   <i className="fas fa-dollar-sign mr-1"></i>
                   6,587
                 </h1>
-                <h3 className="text-muted">
+                <h3 className="text-dark">
                   <i className="fas fa-dollar-sign mr-1"></i>
                   <s>3,293.5‬</s>
                 </h3>
@@ -160,12 +178,53 @@ function Overview(props: any): JSX.Element {
                 </div>
               </div>
 
-              <button className="btn btn-outline-primary mt-5">
-                <i className="fas fa-shopping-cart mr-1"></i>
-                add to cart
-              </button>
+              <div className="mt-5">
+                <button className="btn btn-orange waves-effect">
+                  <i className="fas fa-shopping-cart mr-1"></i>
+                  add to cart
+                </button>
+                <button className="btn btn-outline-orange waves-effect">
+                  <i className="fas fa-gift mr-1"></i>
+                  add to my wishlist
+                </button>
+              </div>
             </div>
           </div>
+          <div className="col-md-1" />
+        </div>
+      </div>
+
+      {/* 
+         @title Suggestions 
+         @data <category> only
+      */}
+      <div className="container">
+        <div className="row row-cols-3 row-cols-md-3 justify-content-center">
+          {suggestionsData.map((d: any, index: number) => {
+            return (
+              <ItemSuggestions
+                key={index}
+                name={d.content.name}
+                photoUrl={d.content.others.photoUrl}
+                hearts={d.hearts}
+                itemId={d.id}
+              />
+            );
+          })}
+        </div>
+      </div>
+
+      {/* 
+         @title Feedbacks 
+         @data <selectedItem> only
+      */}
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-md" />
+          <div className="col-md-8">
+            <Reviews />
+          </div>
+          <div className="col-md" />
         </div>
       </div>
     </div>

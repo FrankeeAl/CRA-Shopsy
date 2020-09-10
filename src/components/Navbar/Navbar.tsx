@@ -1,4 +1,6 @@
 import React from "react";
+import ReactDom from "react-dom";
+
 import { Link } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { toggleSearch } from "./../../redux/action";
@@ -10,10 +12,11 @@ const Navbar: React.SFC<NavbarProps> = () => {
   const toggleSearchHandler = () => {
     dispatch(toggleSearch());
   };
+
   return (
     <div>
-      <nav className="mb-1 navbar navbar-expand-lg navbar-dark">
-        <Link to="/" className="navbar-brand text-white">
+      <nav className="navbar navbar-dark navbar-expand-lg ">
+        <Link to="/" className="navbar-brand  text-dark">
           Shopsy
         </Link>
         <button
@@ -30,20 +33,20 @@ const Navbar: React.SFC<NavbarProps> = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent-4">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <Link to="/items" className="nav-link text-white">
+              <Link to="/items" className="nav-link text-dark">
                 <i className="fas fa-list mr-1"></i> Items
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
 
             <li className="nav-item">
-              <Link to="/cart" className="nav-link  text-white">
+              <Link to="/cart" className="nav-link text-dark">
                 <i className="fas fa-shopping-cart mr-1"></i> View cart
                 <span className="sr-only">(current)</span>
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/login" className="nav-link  text-white">
+              <Link to="/login" className="nav-link text-dark">
                 <i className="fas fa-user mr-1"></i> Sign in
               </Link>
             </li>
@@ -51,7 +54,7 @@ const Navbar: React.SFC<NavbarProps> = () => {
             <li className="nav-item pointer" aria-disabled>
               <div
                 onClick={toggleSearchHandler}
-                className="nav-link  text-white"
+                className="nav-link  text-dark"
               >
                 <i className="fas fa-search mr-1"></i> Search
               </div>
