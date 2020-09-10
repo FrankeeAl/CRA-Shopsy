@@ -9,16 +9,16 @@
 <br/>✅ React-router
 <br/>✅ Node sass
 
-<pre>
-  <h3> Backend </h3>
-  ✅ MongoDb 
-  ✅ Mongoose
-  ✅ Express
-  ✅ JWT
-  ✅ GraphQL
-  ✅ Digital Ocean
-  ✅ Stripe
-</pre>
+
+<h3> Backend </h3>
+     ✅ MongoDb 
+<br/>✅ Mongoose
+<br/>✅ Express
+<br/>✅ JWT
+<br/>✅ GraphQL
+<br/>✅ Digital Ocean
+<br/>✅ Stripe
+
 
 
 <h1>run this line to format all documents</h1>
