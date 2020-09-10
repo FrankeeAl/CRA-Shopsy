@@ -1,7 +1,6 @@
 import React, { Suspense, lazy } from "react";
 import { useLocation, Route, Switch } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
-import Search from "../components/Search/Search";
 
 const Home = lazy(() => import("./Home/Home"));
 const Items = lazy(() => import("./Items/Items"));

@@ -6,12 +6,28 @@ import "./assets/default.css";
 import App from "./App";
 import * as serviceWorker from "./assets/extra/serviceWorker";
 import { BrowserRouter as Router } from "react-router-dom";
+import { createStore, compose } from "redux";
+import { Provider } from "react-redux";
+import { allReducers } from "./redux/index";
+
+declare global {
+  interface Window {
+    __REDUX_DEVTOOLS_EXTENSION__?: typeof compose;
+  }
+}
+const store = createStore(
+  allReducers,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+store.subscribe(() => console.log("[index.tsx] Redux Store", store.getState()));
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router>
-      <App />
-    </Router>
+    <Provider store={store}>
+      <Router>
+        <App />
+      </Router>
+    </Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );

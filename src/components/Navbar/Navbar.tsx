@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import Search from "../Search/Search";
-
+import { useDispatch } from "react-redux";
+import { toggleSearch } from "./../../redux/action";
 export interface NavbarProps {}
 
 const Navbar: React.SFC<NavbarProps> = () => {
-  const [toggleSearch, setToggleSearch] = useState(false);
+  const dispatch = useDispatch();
 
   const toggleSearchHandler = () => {
-    setToggleSearch(!toggleSearch);
+    dispatch(toggleSearch());
   };
   return (
     <div>
@@ -48,10 +48,10 @@ const Navbar: React.SFC<NavbarProps> = () => {
               </Link>
             </li>
 
-            <li className="nav-item pointer">
+            <li className="nav-item pointer" aria-disabled>
               <div
-                className="nav-link  text-white"
                 onClick={toggleSearchHandler}
+                className="nav-link  text-white"
               >
                 <i className="fas fa-search mr-1"></i> Search
               </div>
@@ -59,8 +59,6 @@ const Navbar: React.SFC<NavbarProps> = () => {
           </ul>
         </div>
       </nav>
-
-      {toggleSearch && <Search />}
     </div>
   );
 };

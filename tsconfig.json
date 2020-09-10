@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "noImplicitAny": false,
+    // "typeRoots": [
+    //     "./node_modules/@types/",
+    //     "./src/@Types/"
+    // ],
     "target": "es6",
     "lib": [
       "dom",

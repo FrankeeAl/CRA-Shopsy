@@ -1,11 +1,12 @@
 import React from "react";
-import "./assets/App.css";
 import Layout from "./layout/Layout";
 import Search from "./components/Search/Search";
+import "./assets/App.css";
 
 function App(): JSX.Element {
   return (
     <div className="App">
+      <Search />
       <Layout />
     </div>
   );

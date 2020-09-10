@@ -42,10 +42,10 @@ function Item(): JSX.Element {
     <div className="container">
       <div
         className="row row-cols 
-      row-cols-xl-4 
-      row-cols-lg-3
-      row-cols-md-2
-      row-cols-sm-2"
+          row-cols-xl-5 
+          row-cols-lg-4
+          row-cols-md-2
+          row-cols-sm-2"
       >
         {items.data.map((d: any, index: number) => {
           return (
