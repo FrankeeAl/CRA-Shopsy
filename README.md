@@ -1,13 +1,13 @@
 ### Libraries involved
 <h3> Front end </h3>
 
-✅ React
-✅ Typescript
-✅ React-redux
-✅ Redux
-✅ Framer-motion
-✅ React-router
-✅ Node sass
+<br/>✅ React 
+<br/>✅ Typescript
+<br/>✅ React-redux
+<br/>✅ Redux
+<br/>✅ Framer-motion
+<br/>✅ React-router
+<br/>✅ Node sass
 
 
 <h3> Backend </h3>
