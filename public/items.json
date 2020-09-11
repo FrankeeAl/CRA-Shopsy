@@ -9,12 +9,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Jacket/Basic Hoodie/men_img1.3.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Jacket/Basic Hoodie/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Jacket/Basic Hoodie/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Jacket/Basic Hoodie/men_img1.5.JPG",
-                            "img4Url": "assets/Men/Jacket/Basic Hoodie/men_img1.4.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Jacket/Basic Hoodie/men_img1.1.JPG",
+                            "assets/Men/Jacket/Basic Hoodie/men_img1.2.JPG",
+                            "assets/Men/Jacket/Basic Hoodie/men_img1.5.JPG",
+                            "assets/Men/Jacket/Basic Hoodie/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -29,12 +29,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Jacket/Bomber Jacket/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Jacket/Bomber Jacket/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Jacket/Bomber Jacket/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Jacket/Bomber Jacket/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Jacket/Bomber Jacket/men_img1.4.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Jacket/Bomber Jacket/men_img1.1.JPG",
+                            "assets/Men/Jacket/Bomber Jacket/men_img1.2.JPG",
+                            "assets/Men/Jacket/Bomber Jacket/men_img1.3.JPG",
+                            "assets/Men/Jacket/Bomber Jacket/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -49,12 +49,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Jacket/Pullover With Print/men_img1.3.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Jacket/Pullover With Print/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Jacket/Pullover With Print/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Jacket/Pullover With Print/men_img1.1.JPG",
-                            "img4Url": "assets/Men/Jacket/Pullover With Print/men_img1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Jacket/Pullover With Print/men_img1.4.JPG",
+                            "assets/Men/Jacket/Pullover With Print/men_img1.2.JPG",
+                            "assets/Men/Jacket/Pullover With Print/men_img1.1.JPG",
+                            "assets/Men/Jacket/Pullover With Print/men_img1.JPG"
+                        ]
                      }
                 
             }
@@ -69,12 +69,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Jacket/Relaxed Pullover/men_img1.3.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Jacket/Relaxed Pullover/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Jacket/Relaxed Pullover/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Jacket/Relaxed Pullover/men_img1.4.JPG",
-                            "img4Url": "assets/Men/Jacket/Relaxed Pullover/men_img1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Jacket/Relaxed Pullover/men_img1.1.JPG",
+                            "assets/Men/Jacket/Relaxed Pullover/men_img1.2.JPG",
+                            "assets/Men/Jacket/Relaxed Pullover/men_img1.4.JPG",
+                            "assets/Men/Jacket/Relaxed Pullover/men_img1.JPG"
+                        ]
                      }
                 
             }
@@ -89,12 +89,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.4.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.1.JPG",
+                            "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.2.JPG",
+                            "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.3.JPG",
+                            "assets/Men/Jeans/Blacked Out Skinny Jeans/men_img1.JPG"
+                        ]
                      }
                 
             }
@@ -109,12 +109,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.4.JPG",
+                            "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.2.JPG",
+                            "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.3.JPG",
+                            "assets/Men/Jeans/Cargo Slim Fit Jeans/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -129,12 +129,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.4.JPG",
+                            "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.2.JPG",
+                            "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.3.JPG",
+                            "assets/Men/Jeans/Distressed Slim Fit Jeans/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -150,12 +150,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.4.JPG",
+                            "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.2.JPG",
+                            "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.3.JPG",
+                            "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -171,12 +171,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Polo/Basic Polo/men_img1.3.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Polo/Basic Polo/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Polo/Basic Polo/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Polo/Basic Polo/men_img1.JPG",
-                            "img4Url": "assets/Men/Polo/Basic Polo/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Polo/Basic Polo/men_img1.4.JPG",
+                            "assets/Men/Polo/Basic Polo/men_img1.2.JPG",
+                            "assets/Men/Polo/Basic Polo/men_img1.JPG",
+                            "assets/Men/Polo/Basic Polo/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -192,12 +192,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.3.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.JPG",
-                            "img4Url": "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.4.JPG",
+                            "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.2.JPG",
+                            "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.JPG",
+                            "assets/Men/Polo/Polo Shirt With Color Blocking Detail/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -213,12 +213,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Polo/Polo With Taping/men_img1.2.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Polo/Polo With Taping/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Polo/Polo With Taping/men_img1.3.JPG",
-                            "img3Url": "assets/Men/Polo/Polo With Taping/men_img1.JPG",
-                            "img4Url": "assets/Men/Polo/Polo With Taping/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Polo/Polo With Taping/men_img1.4.JPG",
+                            "assets/Men/Polo/Polo With Taping/men_img1.3.JPG",
+                            "assets/Men/Polo/Polo With Taping/men_img1.JPG",
+                            "assets/Men/Polo/Polo With Taping/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -234,12 +234,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Polo/Striped Polo/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Polo/Striped Polo/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Polo/Striped Polo/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Polo/Striped Polo/men_img1.JPG",
-                            "img4Url": "assets/Men/Polo/Striped Polo/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Polo/Striped Polo/men_img1.4.JPG",
+                            "assets/Men/Polo/Striped Polo/men_img1.2.JPG",
+                            "assets/Men/Polo/Striped Polo/men_img1.JPG",
+                            "assets/Men/Polo/Striped Polo/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -255,12 +255,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.JPG",
-                            "img4Url": "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.4.JPG",
+                            "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.2.JPG",
+                            "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.JPG",
+                            "assets/Men/Shirts/All Over Printed Relaxed Shirt/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -276,12 +276,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.JPG",
-                            "img4Url": "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.4.JPG",
+                            "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.2.JPG",
+                            "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.JPG",
+                            "assets/Men/Shirts/Easy Iron Long Sleeve Shirt/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -297,12 +297,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Shirts/Printed Resort Shirt/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Shirts/Printed Resort Shirt/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Shirts/Printed Resort Shirt/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Shirts/Printed Resort Shirt/men_img1.JPG",
-                            "img4Url": "assets/Men/Shirts/Printed Resort Shirt/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Shirts/Printed Resort Shirt/men_img1.4.JPG",
+                            "assets/Men/Shirts/Printed Resort Shirt/men_img1.2.JPG",
+                            "assets/Men/Shirts/Printed Resort Shirt/men_img1.JPG",
+                            "assets/Men/Shirts/Printed Resort Shirt/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -318,12 +318,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Shirts/Striped Shirt/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Shirts/Striped Shirt/men_img1.4.JPG",
-                            "img2Url": "assets/Men/Shirts/Striped Shirt/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Shirts/Striped Shirt/men_img1.JPG",
-                            "img4Url": "assets/Men/Shirts/Striped Shirt/men_img1.1.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Shirts/Striped Shirt/men_img1.4.JPG",
+                            "assets/Men/Shirts/Striped Shirt/men_img1.2.JPG",
+                            "assets/Men/Shirts/Striped Shirt/men_img1.JPG",
+                            "assets/Men/Shirts/Striped Shirt/men_img1.1.JPG"
+                        ]
                      }
                 
             }
@@ -339,11 +339,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Shorts/Modern Fit Knit Shorts with Cargo Pocket/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Shorts/Modern Fit Knit Shorts with Cargo Pocket/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Shorts/Modern Fit Knit Shorts with Cargo Pocket/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Shorts/Modern Fit Knit Shorts with Cargo Pocket/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Shorts/Modern Fit Knit Shorts with Cargo Pocket/men_img1.1.JPG",
+                            "assets/Men/Shorts/Modern Fit Knit Shorts with Cargo Pocket/men_img1.2.JPG",
+                            "assets/Men/Shorts/Modern Fit Knit Shorts with Cargo Pocket/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -359,13 +359,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Shorts/Modern Fit Shorts/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Shorts/Modern Fit Shorts/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Shorts/Modern Fit Shorts/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Shorts/Modern Fit Shorts/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Shorts/Modern Fit Shorts/men_img1.4.JPG"
-
-                        }
+                        "altImg": [
+                            "assets/Men/Shorts/Modern Fit Shorts/men_img1.1.JPG",
+                            "assets/Men/Shorts/Modern Fit Shorts/men_img1.2.JPG",
+                            "assets/Men/Shorts/Modern Fit Shorts/men_img1.3.JPG",
+                            "assets/Men/Shorts/Modern Fit Shorts/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -381,13 +380,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.JPG",
-                            "img2Url": "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.4.JPG"
-
-                        }
+                        "altImg": [
+                            "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.JPG",
+                            "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.2.JPG",
+                            "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.3.JPG",
+                            "assets/Men/Shorts/Ombre Modern Fit Shorts/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -403,13 +401,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.4.JPG"
-
-                        }
+                        "altImg": [
+                            "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.1.JPG",
+                            "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.2.JPG",
+                            "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.3.JPG",
+                            "assets/Men/Shorts/Penshoppe Move Modern Fit Shorts/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -425,11 +422,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sliders/Chill Crew One Band Sliders/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sliders/Chill Crew One Band Sliders/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sliders/Chill Crew One Band Sliders/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sliders/Chill Crew One Band Sliders/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sliders/Chill Crew One Band Sliders/men_img1.1.JPG",
+                            "assets/Men/Sliders/Chill Crew One Band Sliders/men_img1.2.JPG",
+                            "assets/Men/Sliders/Chill Crew One Band Sliders/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -445,11 +442,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sliders/Ombre One Band Sliders/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sliders/Ombre One Band Sliders/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sliders/Ombre One Band Sliders/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sliders/Ombre One Band Sliders/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sliders/Ombre One Band Sliders/men_img1.1.JPG",
+                            "assets/Men/Sliders/Ombre One Band Sliders/men_img1.2.JPG",
+                            "assets/Men/Sliders/Ombre One Band Sliders/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -465,12 +462,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sliders/One Band Sliders/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sliders/One Band Sliders/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sliders/One Band Sliders/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sliders/One Band Sliders/men_img1.3.JPG"
-                        }
-                     }
+                        "altImg": [
+                            "assets/Men/Sliders/One Band Sliders/men_img1.1.JPG",
+                            "assets/Men/Sliders/One Band Sliders/men_img1.2.JPG",
+                            "assets/Men/Sliders/One Band Sliders/men_img1.3.JPG"
+                        ]
+                    }
                 
             }
     },
@@ -485,10 +482,10 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sliders/One Band Sliders Light Gray/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sliders/One Band Sliders Light Gray/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sliders/One Band Sliders Light Gray/men_img1.2.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sliders/One Band Sliders Light Gray/men_img1.1.JPG",
+                            "assets/Men/Sliders/One Band Sliders Light Gray/men_img1.2.JPG"
+                        ]
                      }
                 
             }
@@ -504,11 +501,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sliders/Two Band Sliders/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sliders/Two Band Sliders/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sliders/Two Band Sliders/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sliders/Two Band Sliders/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sliders/Two Band Sliders/men_img1.1.JPG",
+                            "assets/Men/Sliders/Two Band Sliders/men_img1.2.JPG",
+                            "assets/Men/Sliders/Two Band Sliders/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -524,11 +521,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sneakers/Lace-Up Runners/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sneakers/Lace-Up Runners/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sneakers/Lace-Up Runners/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sneakers/Lace-Up Runners/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sneakers/Lace-Up Runners/men_img1.1.JPG",
+                            "assets/Men/Sneakers/Lace-Up Runners/men_img1.2.JPG",
+                            "assets/Men/Sneakers/Lace-Up Runners/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -544,11 +541,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sneakers/Lace-Up Runners White/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sneakers/Lace-Up Runners White/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sneakers/Lace-Up Runners White/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sneakers/Lace-Up Runners White/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sneakers/Lace-Up Runners White/men_img1.1.JPG",
+                            "assets/Men/Sneakers/Lace-Up Runners White/men_img1.2.JPG",
+                            "assets/Men/Sneakers/Lace-Up Runners White/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -564,13 +561,13 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.4.JPG",
-                            "img5Url": "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.5.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.1.JPG",
+                            "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.2.JPG",
+                            "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.3.JPG",
+                            "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.4.JPG",
+                            "assets/Men/Sneakers/Penshoppe Move Slip-On Runners/men_img1.5.JPG"
+                        ]
                      }
                 
             }
@@ -586,12 +583,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sneakers/Slip-On Sneakers/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sneakers/Slip-On Sneakers/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sneakers/Slip-On Sneakers/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sneakers/Slip-On Sneakers/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Sneakers/Slip-On Sneakers/men_img1.4.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sneakers/Slip-On Sneakers/men_img1.1.JPG",
+                            "assets/Men/Sneakers/Slip-On Sneakers/men_img1.2.JPG",
+                            "assets/Men/Sneakers/Slip-On Sneakers/men_img1.3.JPG",
+                            "assets/Men/Sneakers/Slip-On Sneakers/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -607,11 +604,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Sneakers/Two Straps Sandals/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Sneakers/Two Straps Sandals/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Sneakers/Two Straps Sandals/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Sneakers/Two Straps Sandals/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Sneakers/Two Straps Sandals/men_img1.1.JPG",
+                            "assets/Men/Sneakers/Two Straps Sandals/men_img1.2.JPG",
+                            "assets/Men/Sneakers/Two Straps Sandals/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -627,11 +624,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Tee/Late Nights Relaxed Tee/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Tee/Late Nights Relaxed Tee/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Tee/Late Nights Relaxed Tee/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Tee/Late Nights Relaxed Tee/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Tee/Late Nights Relaxed Tee/men_img1.1.JPG",
+                            "assets/Men/Tee/Late Nights Relaxed Tee/men_img1.2.JPG",
+                            "assets/Men/Tee/Late Nights Relaxed Tee/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -647,12 +644,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.4.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.1.JPG",
+                            "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.2.JPG",
+                            "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.3.JPG",
+                            "assets/Men/Tee/No Facts Given Relaxed Tee/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -668,12 +665,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Tee/Relaxed Tee with Taping/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Tee/Relaxed Tee with Taping/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Tee/Relaxed Tee with Taping/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Tee/Relaxed Tee with Taping/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Tee/Relaxed Tee with Taping/men_img1.4.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Tee/Relaxed Tee with Taping/men_img1.1.JPG",
+                            "assets/Men/Tee/Relaxed Tee with Taping/men_img1.2.JPG",
+                            "assets/Men/Tee/Relaxed Tee with Taping/men_img1.3.JPG",
+                            "assets/Men/Tee/Relaxed Tee with Taping/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -689,12 +686,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Tee/Striped Tank/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Tee/Striped Tank/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Tee/Striped Tank/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Tee/Striped Tank/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Tee/Striped Tank/men_img1.4.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Tee/Striped Tank/men_img1.1.JPG",
+                            "assets/Men/Tee/Striped Tank/men_img1.2.JPG",
+                            "assets/Men/Tee/Striped Tank/men_img1.3.JPG",
+                            "assets/Men/Tee/Striped Tank/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -710,12 +707,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.4.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.1.JPG",
+                            "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.2.JPG",
+                            "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.3.JPG",
+                            "assets/Men/Trousers/Cargo Trousers With Side Taping/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -731,12 +728,12 @@
                 "others": { 
                         "photoUrl": "assets/Men/Trousers/Plaid Trousers/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Trousers/Plaid Trousers/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Trousers/Plaid Trousers/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Trousers/Plaid Trousers/men_img1.3.JPG",
-                            "img4Url": "assets/Men/Trousers/Plaid Trousers/men_img1.4.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Trousers/Plaid Trousers/men_img1.1.JPG",
+                            "assets/Men/Trousers/Plaid Trousers/men_img1.2.JPG",
+                            "assets/Men/Trousers/Plaid Trousers/men_img1.3.JPG",
+                            "assets/Men/Trousers/Plaid Trousers/men_img1.4.JPG"
+                        ]
                      }
                 
             }
@@ -752,11 +749,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Trousers/Printed Dapper Trousers/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Trousers/Printed Dapper Trousers/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Trousers/Printed Dapper Trousers/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Trousers/Printed Dapper Trousers/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Trousers/Printed Dapper Trousers/men_img1.1.JPG",
+                            "assets/Men/Trousers/Printed Dapper Trousers/men_img1.2.JPG",
+                            "assets/Men/Trousers/Printed Dapper Trousers/men_img1.3.JPG"
+                        ]
                      }
                 
             }
@@ -772,11 +769,11 @@
                 "others": { 
                         "photoUrl": "assets/Men/Trousers/Textured Dapper Trousers/men_img1.JPG",
                         "description": "front",
-                        "altImg": {
-                            "img1Url": "assets/Men/Trousers/Textured Dapper Trousers/men_img1.1.JPG",
-                            "img2Url": "assets/Men/Trousers/Textured Dapper Trousers/men_img1.2.JPG",
-                            "img3Url": "assets/Men/Trousers/Textured Dapper Trousers/men_img1.3.JPG"
-                        }
+                        "altImg": [
+                            "assets/Men/Trousers/Textured Dapper Trousers/men_img1.1.JPG",
+                            "assets/Men/Trousers/Textured Dapper Trousers/men_img1.2.JPG",
+                            "assets/Men/Trousers/Textured Dapper Trousers/men_img1.3.JPG"
+                        ]
                      }
                 
             }

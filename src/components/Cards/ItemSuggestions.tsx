@@ -15,7 +15,10 @@ const ItemSuggestions: React.SFC<ItemSuggestionsProps> = ({
 }) => {
   return (
     <Link to={"/item/" + itemId} className="text-dark">
-      <div className="d-flex mb-4 p-3 z-depth-2 m-2">
+      <div
+        className="d-flex mb-4 p-3 z-depth-1 m-2"
+        style={{ borderRadius: "10px" }}
+      >
         <img
           style={{ height: "150px" }}
           src={`/${photoUrl}`}

@@ -43,6 +43,15 @@ code {
 .text-dark-3 {
   color: var(--dark-3) !important;
 }
+.text-white-2 {
+  color: var(--white-2) !important;
+}
+.text-smoke {
+  color: var(--smoke) !important;
+}
+.text-fade {
+  color: #ccc;
+}
 .text-orange {
   color: var(--orange) !important;
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ItemSuggestions from "../../components/Cards/ItemSuggestions";
 import Reviews from "../../components/Review/Review";
+import { CarouselOverview } from "../../components/Carousel/Carousel";
 
 interface itemsProps {
   loading: boolean;
@@ -40,11 +41,12 @@ function Overview(props: any): JSX.Element {
   const selectedItem: any = items.data.find((x: any) => {
     return x.id === props.match.params.id;
   });
+  console.log(`Selected Item AltImg -`, selectedItem.content.others.altImg);
 
   // @title "Prototype of selectedItem for suggestions"
   // @data <category> and select 1
   const suggestionsData = items.data.filter((d: any) => {
-    return d.category === selectedItem.category && d.id != selectedItem.id;
+    return d.category === selectedItem.category && d.id !== selectedItem.id;
   });
 
   // @title "Change title according to its product name"
@@ -60,24 +62,15 @@ function Overview(props: any): JSX.Element {
          @title Preview item 
          @data <selectedItem> only
       */}
-      <div className="container-fluid">
-        <div className="row mt-1">
-          <div className="col-md-1" />
+      <div className="container">
+        <div className="row mt-1 justify-content-center">
           <div className="col-md-5">
-            <div className="m-3">
-              {items.loading ? (
-                <h1>Page is loading</h1>
-              ) : (
-                <img
-                  style={{ height: "500px" }}
-                  src={`/${selectedItem.content.others.photoUrl}`}
-                  className="img-fluid"
-                  alt=""
-                />
-              )}
-            </div>
+            <CarouselOverview
+              altImg={selectedItem.content.others.altImg}
+              photoUrl={selectedItem.content.others.photoUrl}
+            />
           </div>
-          <div className="col-md">
+          <div className="col-md-7">
             <div className="text-left pl-3 pt-3">
               <h6 className="text-capitalize text-muted">
                 {selectedItem.gender === "men" ? (
@@ -190,7 +183,6 @@ function Overview(props: any): JSX.Element {
               </div>
             </div>
           </div>
-          <div className="col-md-1" />
         </div>
       </div>
 
@@ -198,7 +190,7 @@ function Overview(props: any): JSX.Element {
          @title Suggestions 
          @data <category> only
       */}
-      <div className="container">
+      <div className="container mt-5">
         <div className="row row-cols-3 row-cols-md-3 justify-content-center">
           {suggestionsData.map((d: any, index: number) => {
             return (

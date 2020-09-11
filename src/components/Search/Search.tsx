@@ -36,7 +36,7 @@ const Search: React.SFC<SearchProps> = () => {
           <div className={classes.overlayContent}>
             <div className="md-form">
               <input
-                type="text"
+                type="search"
                 id="form1"
                 className="form-control text-white"
                 autoComplete="off"
