@@ -26,7 +26,7 @@ const ItemSuggestions: React.SFC<ItemSuggestionsProps> = ({
         />
 
         <div className="pl-3 text-left position-relative w-100">
-          <h3 className="text-left">{name}</h3>
+          <h5 className="text-left">{name}</h5>
           <h2 className="text-dark mr-3 text-strong">
             <i className="fas fa-dollar-sign mr-1"></i>2349
           </h2>
