@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import ProductItem from "../../components/Cards/Item";
 import axios from "axios";
+import { parse } from "path";
 
 interface itemsProps {
   loading: boolean;
@@ -33,8 +34,6 @@ function Item({ data }): JSX.Element {
     localStorage.setItem("currentLoad", "10");
   } else CURRENT_LOAD_VALUE = parseInt(CURRENT_LOAD);
 
-  console.log("CURRENT_LOAD_VALUE:", CURRENT_LOAD_VALUE);
-
   const [items, setItems] = useState<itemsProps>({
     loading: true,
     data: [],
@@ -46,17 +45,18 @@ function Item({ data }): JSX.Element {
 
   function setCurrentLoad() {
     let currentLoad = localStorage.getItem("currentLoad");
-    let value: number = 0;
+    let count = 10;
 
     if (currentLoad == null || currentLoad == "null") {
       return currentLoad;
     } else {
-      value += parseInt(currentLoad) + loadCount.count;
-      localStorage.setItem("currentLoad", value.toString());
-      setLoadCount({ count: loadCount.count += value });
-    }
+      count += loadCount.count;
 
-    console.log(` currentLoad ${currentLoad} : typeof ${typeof currentLoad}`);
+      localStorage.setItem("currentLoad", count.toString());
+      setLoadCount({ count: loadCount.count += parseInt(currentLoad) });
+      console.log(`COUNT: `, count);
+      console.log(`loadCount.count: `, loadCount.count);
+    }
   }
 
   useEffect(() => {
@@ -80,8 +80,6 @@ function Item({ data }): JSX.Element {
     setLoadCount({ count: loadCount.count + 10 });
     setCurrentLoad();
   };
-  console.log("Items total -", items.data.length);
-  console.log("count total -", loadCount.count);
 
   return (
     <div className="container">
