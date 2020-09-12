@@ -15,7 +15,12 @@ const Navbar: React.SFC<NavbarProps> = () => {
   return (
     <div>
       <nav className="navbar navbar-dark navbar-expand-lg ">
-        <Link to="/" className="navbar-brand  text-dark">
+        <Link
+          to="/"
+          className="navbar-brand text-uppercase text-dark  cf-pistara"
+          style={{ letterSpacing: "2px" }}
+        >
+          {" "}
           Shopsy
         </Link>
         <button

@@ -6,20 +6,57 @@ import axios from "axios";
 interface itemsProps {
   loading: boolean;
   data: [];
-  path?: string;
+}
+interface itemCountProps {
+  loading?: boolean;
+  count: number;
+  arrow?: boolean;
 }
 
-function Item(): JSX.Element {
+function Item({ data }): JSX.Element {
   const location = useLocation();
-  const [items, setItems] = useState<itemsProps>({
-    loading: true,
-    data: [],
-    path: "",
-  });
-
   // Overwrite the document.title
   if (location.pathname === "/items") {
     window.document.title = "Shopsy Items";
+  }
+  /*
+   * Initialize CURRENT_LOAD
+   * @from localstorage { currentLoad }
+   * @if currentLoad is empty initialize it with 10:string
+   * @if currentload is not empty parse currentLoad to int
+   */
+
+  let CURRENT_LOAD = localStorage.getItem("currentLoad");
+  let CURRENT_LOAD_VALUE: number = 0;
+
+  if (CURRENT_LOAD == null || CURRENT_LOAD == "null") {
+    localStorage.setItem("currentLoad", "10");
+  } else CURRENT_LOAD_VALUE = parseInt(CURRENT_LOAD);
+
+  console.log("CURRENT_LOAD_VALUE:", CURRENT_LOAD_VALUE);
+
+  const [items, setItems] = useState<itemsProps>({
+    loading: true,
+    data: [],
+  });
+  const [loadCount, setLoadCount] = useState<itemCountProps>({
+    arrow: true,
+    count: CURRENT_LOAD_VALUE,
+  });
+
+  function setCurrentLoad() {
+    let currentLoad = localStorage.getItem("currentLoad");
+    let value: number = 0;
+
+    if (currentLoad == null || currentLoad == "null") {
+      return currentLoad;
+    } else {
+      value += parseInt(currentLoad) + loadCount.count;
+      localStorage.setItem("currentLoad", value.toString());
+      setLoadCount({ count: loadCount.count += value });
+    }
+
+    console.log(` currentLoad ${currentLoad} : typeof ${typeof currentLoad}`);
   }
 
   useEffect(() => {
@@ -38,6 +75,14 @@ function Item(): JSX.Element {
   if (items.loading) {
     return <h1>Loading..</h1>;
   }
+
+  const loadMoreHandler = () => {
+    setLoadCount({ count: loadCount.count + 10 });
+    setCurrentLoad();
+  };
+  console.log("Items total -", items.data.length);
+  console.log("count total -", loadCount.count);
+
   return (
     <div className="container">
       <div
@@ -47,7 +92,7 @@ function Item(): JSX.Element {
           row-cols-md-2
           row-cols-sm-2"
       >
-        {items.data.map((d: any, index: number) => {
+        {items.data.slice(0, loadCount.count).map((d: any, index: number) => {
           return (
             <ProductItem
               key={index}
@@ -56,10 +101,18 @@ function Item(): JSX.Element {
               name={d.content.name}
               hearts={d.hearts}
               photoUrl={d.content.others.photoUrl}
+              price={d.price.toFixed(2)}
             />
           );
         })}
       </div>
+      {loadCount.count >= items.data.length ? (
+        <h6 className="text-muted mb-4">Nothing more to load</h6>
+      ) : (
+        <h1 className="pointer" onClick={loadMoreHandler}>
+          <i className="fas fa-chevron-down mr-1 text-capitalize text-dark"></i>
+        </h1>
+      )}
     </div>
   );
 }

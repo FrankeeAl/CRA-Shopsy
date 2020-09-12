@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import React, { Suspense, lazy, useState } from "react";
 import { useLocation, Route, Switch } from "react-router-dom";
 import Navbar from "../components/Navbar/Navbar";
 
@@ -10,6 +10,7 @@ const Example = lazy(() => import("./Example/Example"));
 export interface LayoutProps {}
 
 const Layout: React.SFC<LayoutProps> = () => {
+  const [data, setData] = useState(1);
   const location = useLocation();
 
   // Overwrite the document.title
@@ -22,11 +23,12 @@ const Layout: React.SFC<LayoutProps> = () => {
       <Navbar />
       <Suspense fallback={<h1>Loading</h1>}>
         <Switch>
-          <Route path="/items" component={Items} />
+          <Route
+            path="/items"
+            render={(props) => <Items {...props} data={data} />}
+          />
           <Route path="/item/:id" component={Overview} />
-
           <Route path="/example" component={Example} />
-
           <Route exact path="/" component={Home} />
         </Switch>
       </Suspense>

@@ -6,6 +6,7 @@ interface ProductItem {
   itemId: string;
   name: string;
   hearts: number;
+  price: number;
 }
 const ProductItem: React.FC<ProductItem> = ({
   photoUrl,
@@ -13,6 +14,7 @@ const ProductItem: React.FC<ProductItem> = ({
   itemId,
   name,
   hearts,
+  price,
 }) => {
   return (
     <div className="mb-4 p-3">
@@ -42,7 +44,8 @@ const ProductItem: React.FC<ProductItem> = ({
 
           <div className="d-flex justify-content-between mt-2">
             <h5 className="text-dark weight-300">
-              <i className="fas fa-dollar-sign mr-1"></i>4022
+              <i className="fas fa-dollar-sign mr-1"></i>
+              {price}
             </h5>
             <div className="d-flex">
               <h5 className="text-orange weight-300 mr-2">

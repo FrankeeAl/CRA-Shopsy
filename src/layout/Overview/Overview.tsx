@@ -3,12 +3,22 @@ import axios from "axios";
 import ItemSuggestions from "../../components/Cards/ItemSuggestions";
 import Reviews from "../../components/Review/Review";
 import { CarouselOverview } from "../../components/Carousel/Carousel";
+import {
+  Container,
+  ContainerFluid,
+  Row,
+} from "../../components/Container/Container";
+import { CheckboxSizes } from "../../components/Forms/Checkbox";
+import {
+  ItemPrice,
+  OverviewDescription,
+  ItemStats,
+} from "../../components/Text/ItemDescription";
 
 interface itemsProps {
   loading: boolean;
   data: [];
   path?: string;
-  selectedItem?: string;
 }
 
 function Overview(props: any): JSX.Element {
@@ -16,7 +26,6 @@ function Overview(props: any): JSX.Element {
     loading: true,
     path: "/",
     data: [],
-    selectedItem: "",
   });
 
   // @title when page mounted run this effect
@@ -55,23 +64,38 @@ function Overview(props: any): JSX.Element {
     window.document.title = selectedItem.content.name;
   }
 
+  // @return color of badge according to its discount
+  const getSaleDiscount = (value: number) => {
+    let typeOfBadge: string = "";
+
+    if (value >= 5 && value < 50) {
+      typeOfBadge = "badge-default";
+    } else if (value >= 50 && value < 80) {
+      typeOfBadge = "badge-warning";
+    } else if (value >= 80) {
+      typeOfBadge = "badge-danger";
+    }
+
+    return typeOfBadge;
+  };
+
   // @title return tsx
   return (
-    <div>
+    <Container>
       {/* 
          @title Preview item 
          @data <selectedItem> only
       */}
       <div className="container">
-        <div className="row mt-1 justify-content-center">
-          <div className="col-md-5">
+        <div className="row mt-1">
+          <div className="col-md-5 ">
             <CarouselOverview
               altImg={selectedItem.content.others.altImg}
               photoUrl={selectedItem.content.others.photoUrl}
             />
           </div>
           <div className="col-md-7">
-            <div className="text-left pl-3 pt-3">
+            <div className="text-left pt-3">
               <h6 className="text-capitalize text-muted">
                 {selectedItem.gender === "men" ? (
                   <div>
@@ -91,87 +115,39 @@ function Overview(props: any): JSX.Element {
               <span className="badge badge-pill badge-danger mr-2">
                 Best seller
               </span>
-              <span className="badge badge-pill badge-success">50% sale</span>
+
+              <span
+                className={`badge badge-pill ${getSaleDiscount(
+                  selectedItem.discount
+                )}`}
+              >
+                {selectedItem.discount}% sale
+              </span>
+
               <div className="d-flex pt-4 align-items-center">
-                <h1 className="mr-3 text-dark text-strong">
-                  <i className="fas fa-dollar-sign mr-1"></i>
-                  6,587
-                </h1>
-                <h3 className="text-dark">
-                  <i className="fas fa-dollar-sign mr-1"></i>
-                  <s>3,293.5‬</s>
-                </h3>
+                <ItemPrice
+                  discount={selectedItem.discount}
+                  price={selectedItem.price}
+                />
               </div>
 
               <div className="d-flex">
-                <h6 className="pink-text mr-3">
-                  <i className="fas fa-heart mr-1"></i>
-                  {selectedItem.hearts}
-                </h6>
-
-                <h6 className="pink-text">
-                  <i className="fas fa-gift mr-1"></i>
-                  {selectedItem.hearts}
-                </h6>
+                <ItemStats hearts={selectedItem.hearts} />
               </div>
 
               <div>
-                <h5 className="pt-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Veniam est odit alias eos sunt nobis impedit vero eius ullam
-                  dolores!
-                </h5>
-
+                {/* @Description */}
                 <div className="pt-3">
-                  <h5>Available sizes</h5>
-                  <div className="form-check form-check-inline">
-                    <input
-                      type="radio"
-                      className="form-check-input"
-                      id="materialInline1"
-                      name="inlineMaterialRadiosExample"
-                    />
-                    <label
-                      className="form-check-label"
-                      htmlFor="materialInline1"
-                    >
-                      Small
-                    </label>
-                  </div>
+                  <OverviewDescription />
+                </div>
 
-                  <div className="form-check form-check-inline">
-                    <input
-                      type="radio"
-                      className="form-check-input"
-                      id="materialInline2"
-                      name="inlineMaterialRadiosExample"
-                    />
-                    <label
-                      className="form-check-label"
-                      htmlFor="materialInline2"
-                    >
-                      Medium
-                    </label>
-                  </div>
-
-                  <div className="form-check form-check-inline">
-                    <input
-                      type="radio"
-                      className="form-check-input"
-                      id="materialInline3"
-                      name="inlineMaterialRadiosExample"
-                    />
-                    <label
-                      className="form-check-label"
-                      htmlFor="materialInline3"
-                    >
-                      Large
-                    </label>
-                  </div>
+                {/* @Sizes */}
+                <div className="pt-3">
+                  <CheckboxSizes />
                 </div>
               </div>
 
-              <div className="mt-5">
+              <div className="mt-3">
                 <button className="btn btn-orange waves-effect">
                   <i className="fas fa-shopping-cart mr-1"></i>
                   add to cart
@@ -182,27 +158,28 @@ function Overview(props: any): JSX.Element {
                 </button>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
 
-      {/* 
-         @title Suggestions 
-         @data <category> only
-      */}
-      <div className="container mt-5">
-        <div className="row row-cols-3 row-cols-md-3 justify-content-center">
-          {suggestionsData.map((d: any, index: number) => {
-            return (
-              <ItemSuggestions
-                key={index}
-                name={d.content.name}
-                photoUrl={d.content.others.photoUrl}
-                hearts={d.hearts}
-                itemId={d.id}
-              />
-            );
-          })}
+            {/* 
+              @title Suggestions 
+              @data <category> only
+          */}
+            <Row>
+              <div className="row row-cols-2 row-cols-md-4  justify-content-start w-100">
+                {suggestionsData.map((d: any, index: number) => {
+                  return (
+                    <ItemSuggestions
+                      key={index}
+                      name={d.content.name}
+                      photoUrl={d.content.others.photoUrl}
+                      hearts={d.hearts}
+                      itemId={d.id}
+                      price={d.price}
+                    />
+                  );
+                })}
+              </div>
+            </Row>
+          </div>
         </div>
       </div>
 
@@ -210,16 +187,16 @@ function Overview(props: any): JSX.Element {
          @title Feedbacks 
          @data <selectedItem> only
       */}
-      <div className="container-fluid">
-        <div className="row">
+      <ContainerFluid>
+        <Row>
           <div className="col-md" />
           <div className="col-md-8">
             <Reviews />
           </div>
           <div className="col-md" />
-        </div>
-      </div>
-    </div>
+        </Row>
+      </ContainerFluid>
+    </Container>
   );
 }
 

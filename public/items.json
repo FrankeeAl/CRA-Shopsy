@@ -3,6 +3,8 @@
         "id": "1",
         "gender": "men",
         "hearts": 204,
+        "price": 100.00,
+        "discount": 30,
         "category": "jacket",
             "content": {
                 "name": "Basic Hoodie",
@@ -23,6 +25,8 @@
         "id": "2",
         "gender": "men",
         "hearts": 134,
+        "price": 715.00,
+        "discount": 50,
         "category": "jacket",
             "content": {
                 "name": "Bomber Jacket",
@@ -32,8 +36,7 @@
                         "altImg": [
                             "assets/Men/Jacket/Bomber Jacket/men_img1.1.JPG",
                             "assets/Men/Jacket/Bomber Jacket/men_img1.2.JPG",
-                            "assets/Men/Jacket/Bomber Jacket/men_img1.3.JPG",
-                            "assets/Men/Jacket/Bomber Jacket/men_img1.4.JPG"
+                            "assets/Men/Jacket/Bomber Jacket/men_img1.3.JPG"
                         ]
                      }
                 
@@ -43,6 +46,9 @@
         "id": "3",
         "gender": "men",
         "hearts": 1357,
+        "price": 742.00,
+        "discount": 20,
+
         "category": "jacket",
             "content": {
                 "name": "Pullover With Print",
@@ -63,6 +69,9 @@
         "id": "4",
         "gender": "men",
         "hearts": 2157,
+        "price": 932.00,
+        "discount": 10,
+
         "category": "jacket",
             "content": {
                 "name": "Relaxed Pullover",
@@ -83,6 +92,9 @@
         "id": "5",
         "gender": "men",
         "hearts": 332,
+        "price": 893.00,
+        "discount": 75,
+
         "category": "jeans",
             "content": {
                 "name": "Blacked Out Skinny Jeans",
@@ -103,6 +115,9 @@
         "id": "6",
         "gender": "men",
         "hearts": 1693,
+        "price": 433.00,
+        "discount": 60,
+
         "category": "jeans",
             "content": {
                 "name": "Cargo Slim Fit Jeans",
@@ -123,6 +138,9 @@
         "id": "7",
         "gender": "men",
         "hearts": 691,
+        "price":430.00,
+        "discount": 20,
+
         "category": "jeans",
             "content": {
                 "name": "Distressed Slim Fit Jeans",
@@ -143,6 +161,8 @@
         "id": "8",
         "gender": "men",
         "hearts": 244,
+        "price": 11.00,
+        "discount": 65,
 
         "category": "jeans",
             "content": {
@@ -151,7 +171,6 @@
                         "photoUrl": "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.JPG",
                         "description": "front",
                         "altImg": [
-                            "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.4.JPG",
                             "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.2.JPG",
                             "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.3.JPG",
                             "assets/Men/Jeans/Powerflex Super Skinny Jeans/men_img1.1.JPG"
@@ -164,6 +183,8 @@
         "id": "9",
         "gender": "men",
         "hearts": 572,
+        "price": 391.00,
+        "discount": 80,
 
         "category": "polo",
             "content": {
@@ -185,6 +206,8 @@
         "id": "10",
         "gender": "men",
         "hearts": 144,
+        "price": 398.00,
+        "discount": 30,
 
         "category": "polo",
             "content": {
@@ -206,6 +229,8 @@
         "id": "11",
         "gender": "men",
         "hearts": 632,
+        "price": 398.00,
+        "discount": 80,
 
         "category": "polo",
             "content": {
@@ -227,6 +252,8 @@
         "id": "12",
         "gender": "men",
         "hearts": 8741,
+        "price": 45.00,
+        "discount": 10,
 
         "category": "polo",
             "content": {
@@ -248,6 +275,8 @@
         "id": "13",
         "gender": "men",
         "hearts": 2104,
+        "price": 199.00,
+        "discount": 30,
 
         "category": "shirts",
             "content": {
@@ -269,6 +298,8 @@
         "id": "14",
         "gender": "men",
         "hearts": 67,
+        "price": 378.00,
+        "discount": 25,
 
         "category": "shirts",
             "content": {
@@ -290,6 +321,8 @@
         "id": "15",
         "gender": "men",
         "hearts": 1434,
+        "price": 810.00,
+        "discount": 60,
 
         "category": "shirts",
             "content": {
@@ -311,6 +344,8 @@
         "id": "16",
         "gender": "men",
         "hearts": 1205,
+        "price": 364.00,
+        "discount": 80,
 
         "category": "shirts",
             "content": {
@@ -332,6 +367,8 @@
         "id": "17",
         "gender": "men",
         "hearts": 9632,
+        "price": 643.00,
+        "discount": 15,
 
         "category": "shorts",
             "content": {
@@ -352,6 +389,8 @@
         "id": "18",
         "gender": "men",
         "hearts": 2232,
+        "price": 804.00,
+        "discount": 45,
 
         "category": "shorts",
             "content": {
@@ -373,6 +412,8 @@
         "id": "19",
         "gender": "men",
         "hearts": 1054,
+        "price": 372.00,
+        "discount": 35,
 
         "category": "shorts",
             "content": {
@@ -394,6 +435,8 @@
         "id": "20",
         "gender": "men",
         "hearts": 1228,
+        "price": 762.00,
+        "discount": 25,
 
         "category": "shorts",
             "content": {
@@ -415,6 +458,8 @@
         "id": "21",
         "gender": "men",
         "hearts": 48,
+        "price": 431.00,
+        "discount": 90,
 
         "category": "sliders",
             "content": {
@@ -435,6 +480,8 @@
         "id": "22",
         "gender": "men",
         "hearts": 96,
+        "price": 660.00,
+        "discount": 80,
 
         "category": "sliders",
             "content": {
@@ -455,6 +502,8 @@
         "id": "23",
         "gender": "men",
         "hearts": 2457,
+        "price": 568.00,
+        "discount": 20,
 
         "category": "sliders",
             "content": {
@@ -475,6 +524,8 @@
         "id": "24",
         "gender": "men",
         "hearts": 1254,
+        "price": 288.00,
+        "discount": 10,
 
         "category": "sliders",
             "content": {
@@ -494,6 +545,8 @@
         "id": "25",
         "gender": "men",
         "hearts": 3611,
+        "price": 998.00,
+        "discount": 30,
 
         "category": "sliders",
             "content": {
@@ -514,6 +567,8 @@
         "id": "26",
         "gender": "men",
         "hearts": 741,
+        "price": 305.00,
+        "discount": 40,
 
         "category": "sneakers",
             "content": {
@@ -534,6 +589,8 @@
         "id": "27",
         "gender": "men",
         "hearts": 22,
+        "price": 114.00,
+        "discount": 90,
 
         "category": "sneakers",
             "content": {
@@ -554,6 +611,8 @@
         "id": "28",
         "gender": "men",
         "hearts": 454,
+        "price": 585.00,
+        "discount": 70,
 
         "category": "sneakers",
             "content": {
@@ -576,6 +635,8 @@
         "id": "29",
         "gender": "men",
         "hearts": 211,
+        "price": 71.00,
+        "discount": 75,
 
         "category": "sneakers",
             "content": {
@@ -597,6 +658,8 @@
         "id": "30",
         "gender": "men",
         "hearts": 14,
+        "price": 789.00,
+        "discount": 20,
 
         "category": "sneakers",
             "content": {
@@ -617,6 +680,8 @@
         "id": "31",
         "gender": "men",
         "hearts": 124,
+        "price": 819.00,
+        "discount": 0,
 
         "category": "tee",
             "content": {
@@ -637,6 +702,8 @@
         "id": "32",
         "gender": "men",
         "hearts": 12,
+        "price": 95.00 ,
+        "discount": 0,
 
         "category": "tee",
             "content": {
@@ -658,6 +725,8 @@
         "id": "33",
         "gender": "men",
         "hearts": 678,
+        "price": 306.00,
+        "discount": 0,
 
         "category": "tee",
             "content": {
@@ -679,6 +748,8 @@
         "id": "34",
         "gender": "men",
         "hearts": 981,
+        "price": 844.00,
+        "discount": 20,
 
         "category": "tee",
             "content": {
@@ -700,6 +771,8 @@
         "id": "35",
         "gender": "men",
         "hearts": 14,
+        "price": 848.00,
+        "discount": 35,
 
         "category": "trousers",
             "content": {
@@ -721,6 +794,8 @@
         "id": "36",
         "gender": "men",
         "hearts": 1232,
+        "price": 800.00,
+        "discount": 40,
 
         "category": "trousers",
             "content": {
@@ -742,6 +817,8 @@
         "id": "37",
         "gender": "men",
         "hearts": 874,
+        "price": 366.00,
+        "discount": 20,
 
         "category": "trousers",
             "content": {
@@ -762,6 +839,8 @@
         "id": "38",
         "gender": "men",
         "hearts": 1143,
+        "price": 165.00,
+        "discount": 30,
 
         "category": "trousers",
             "content": {
@@ -773,6 +852,263 @@
                             "assets/Men/Trousers/Textured Dapper Trousers/men_img1.1.JPG",
                             "assets/Men/Trousers/Textured Dapper Trousers/men_img1.2.JPG",
                             "assets/Men/Trousers/Textured Dapper Trousers/men_img1.3.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "39",
+        "gender": "accessories",
+        "hearts": 859,
+        "price": 432.00,
+        "discount": 60,
+
+        "category": "backpack",
+            "content": {
+                "name": "Backpack With Side Print",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Backpack With Side Print/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Backpack With Side Print/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Backpack With Side Print/men_accessories3.JPG",
+                            "assets/Men/Men's Accessories/Backpack With Side Print/men_accessories4.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "40",
+        "gender": "accessories",
+        "hearts": 943,
+        "price": 64.00,
+        "discount": 40,
+
+        "category": "baseball cap",
+            "content": {
+                "name": "Baseball Cap with Face Shield",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Baseball Cap with Face Shield/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Baseball Cap with Face Shield/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Baseball Cap with Face Shield/men_accessories3.JPG",
+                            "assets/Men/Men's Accessories/Baseball Cap with Face Shield/men_accessories4.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "41",
+        "gender": "accessories",
+        "hearts": 909,
+        "price": 461.00,
+        "discount": 80,
+
+        "category": "bucket hat",
+            "content": {
+                "name": "Bucket Hat With Detachable Face Shield",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Bucket Hat With Detachable Face Shield/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Bucket Hat With Detachable Face Shield/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Bucket Hat With Detachable Face Shield/men_accessories3.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "42",
+        "gender": "accessories",
+        "hearts": 956,
+        "price": 928.00,
+        "discount": 50,
+
+        "category": "socks",
+            "content": {
+                "name": "Burn Crew Socks",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Burn Crew Socks/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Burn Crew Socks/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Burn Crew Socks/men_accessories3.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "43",
+        "gender": "accessories",
+        "hearts": 535,
+        "price": 553.00,
+        "discount": 50,
+
+        "category": "purse",
+            "content": {
+                "name": "Coin Purse",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Coin Purse/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Coin Purse/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Coin Purse/men_accessories3.JPG",
+                            "assets/Men/Men's Accessories/Coin Purse/men_accessories4.JPG"
+
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "44",
+        "gender": "accessories",
+        "hearts": 476,
+        "price": 16.00,
+        "discount": 10,
+
+        "category": "shield",
+            "content": {
+                "name": "Eye Shield",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Eye Shield/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Eye Shield/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Eye Shield/men_accessories3.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "45",
+        "gender": "accessories",
+        "hearts": 801,
+        "price": 477.00,
+        "discount": 30,
+
+        "category": "eyeglasses",
+            "content": {
+                "name": "Eyeglasses",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Eyeglasses/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Eyeglasses/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Eyeglasses/men_accessories3.JPG",
+                            "assets/Men/Men's Accessories/Eyeglasses/men_accessories4.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "46",
+        "gender": "accessories",
+        "hearts": 553,
+        "price": 348.00,
+        "discount": 40,
+
+        "category": "facemask",
+            "content": {
+                "name": "Face Mask With Anti-Viral Treatment",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Face Mask With Anti-Viral Treatment/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Face Mask With Anti-Viral Treatment/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Face Mask With Anti-Viral Treatment/men_accessories3.JPG",
+                            "assets/Men/Men's Accessories/Face Mask With Anti-Viral Treatment/men_accessories4.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "47",
+        "gender": "accessories",
+        "hearts": 605,
+        "price": 854.00,
+        "discount": 10,
+
+        "category": "pack",
+            "content": {
+                "name": "Life Pack",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Life Pack/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Life Pack/men_accessories2.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "48",
+        "gender": "accessories",
+        "hearts": 447,
+        "price": 634.00,
+        "discount": 90,
+
+        "category": "bucket hat",
+            "content": {
+                "name": "Reversible Ombre Bucket Hat",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Reversible Ombre Bucket Hat/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Reversible Ombre Bucket Hat/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Reversible Ombre Bucket Hat/men_accessories3.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "49",
+        "gender": "accessories",
+        "hearts": 481,
+        "price": 787.00,
+        "discount": 50,
+
+        "category": "wallet",
+            "content": {
+                "name": "Short Bi-Fold Wallet",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Short Bi-Fold Wallet/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Short Bi-Fold Wallet/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Short Bi-Fold Wallet/men_accessories3.JPG"
+                        ]
+                     }
+                
+            }
+    },
+    {
+        "id": "50",
+        "gender": "accessories",
+        "hearts": 574,
+        "price": 56.00,
+        "discount": 20,
+
+        "category": "backpack",
+            "content": {
+                "name": "Transparent Backpack",
+                "others": { 
+                        "photoUrl": "assets/Men/Men's Accessories/Transparent Backpack/men_accessories1.JPG",
+                        "description": "front",
+                        "altImg": [
+                            "assets/Men/Men's Accessories/Transparent Backpack/men_accessories2.JPG",
+                            "assets/Men/Men's Accessories/Transparent Backpack/men_accessories3.JPG"
                         ]
                      }
                 

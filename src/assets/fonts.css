@@ -1,0 +1,23 @@
+@font-face {
+  font-family: BlackHanSans;
+  src: url("./fonts/BlackHanSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: PoiretOne;
+  src: url("./fonts/PoiretOne-Regular.ttf");
+}
+@font-face {
+  font-family: Pistara;
+  src: url("./fonts/Pistara-jaLG.otf");
+}
+.cf-blackhansans {
+  font-family: BlackHanSans;
+}
+
+.cf-pistara {
+  font-family: Pistara;
+}
+.cf-poiretone {
+  font-family: PoiretOne;
+}

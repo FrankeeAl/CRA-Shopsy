@@ -13,20 +13,21 @@ export const CarouselOverview: React.SFC<CarouselOverviewProps> = ({
     <div
       id="carousel-thumb"
       className="
+      pointer 
+        
         justify-content-center
         carousel slide carousel-fade carousel-thumbnails pt-3"
       data-ride="carousel"
+      aria-readonly
     >
       <div className="carousel-inner" role="listbox">
         <div className="carousel-item active">
-          <div className="d-flex justify-content-center">
-            <img
-              className="d-block"
-              style={{ height: "400px" }}
-              src={`/${photoUrl}`}
-              alt="First slide"
-            />
-          </div>
+          <img
+            className="d-block w-100"
+            style={{ height: "auto" }}
+            src={`/${photoUrl}`}
+            alt="First slide"
+          />
         </div>
 
         {altImg.map((d: any, index) => {
@@ -35,7 +36,7 @@ export const CarouselOverview: React.SFC<CarouselOverviewProps> = ({
             <div className="carousel-item" key={index}>
               <img
                 className="d-block w-100"
-                style={{ height: "400px" }}
+                style={{ height: "auto" }}
                 src={`/${d}`}
                 alt="Second slide"
               />

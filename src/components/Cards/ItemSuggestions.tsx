@@ -5,6 +5,7 @@ interface ItemSuggestionsProps {
   name: string;
   hearts: number;
   itemId: number | string;
+  price: number;
 }
 
 const ItemSuggestions: React.SFC<ItemSuggestionsProps> = ({
@@ -12,35 +13,47 @@ const ItemSuggestions: React.SFC<ItemSuggestionsProps> = ({
   name,
   hearts,
   itemId,
+  price,
 }) => {
   return (
-    <Link to={"/item/" + itemId} className="text-dark">
-      <div
-        className="d-flex mb-4 p-3 z-depth-1 m-2"
-        style={{ borderRadius: "10px" }}
-      >
-        <img
-          style={{ height: "150px" }}
-          src={`/${photoUrl}`}
-          alt={`#${photoUrl}`}
-        />
-
-        <div className="pl-3 text-left position-relative w-100">
-          <h5 className="text-left">{name}</h5>
-          <h2 className="text-dark mr-3 text-strong">
-            <i className="fas fa-dollar-sign mr-1"></i>2349
-          </h2>
-
-          <div className="d-flex position-absolute" style={{ bottom: "0" }}>
-            <h5 className="text-dark mr-3">
+    <Link to={"/item/" + itemId} className="text-dark ">
+      <div className="m-2 ">
+        <div className="view overlay pointer">
+          <img
+            className="card-img-top"
+            style={{
+              height: "200px",
+              borderTopLeftRadius: "20px",
+              borderTopRightRadius: "20px",
+            }}
+            src={`/${photoUrl}`}
+            alt={`#${photoUrl}`}
+          />
+          <div className="mask rgba-white-slight"></div>
+        </div>
+        <div className="card-body text-left" style={{ paddingTop: "10px" }}>
+          <div className="d-flex justify-content-between">
+            <p
+              style={{ fontSize: "14px" }}
+              className="card-text text-dark weight-300"
+            >
               <i className="fas fa-dollar-sign mr-1"></i>
-              <s>2349</s>
-            </h5>
-            <h5 className="pink-text">
+              <strong>{price}</strong>
+            </p>
+            <p
+              style={{ fontSize: "14px" }}
+              className="card-text pink-text weight-300"
+            >
               <i className="fas fa-heart mr-1"></i>
-              {hearts}
-            </h5>
+              <strong>{hearts}</strong>
+            </p>
           </div>
+          <p
+            style={{ fontSize: "13px", marginTop: "-20px" }}
+            className="card-text text-dark weight-300"
+          >
+            {name}
+          </p>
         </div>
       </div>
     </Link>

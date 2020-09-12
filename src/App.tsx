@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "./layout/Layout";
 import Search from "./components/Search/Search";
 import "./assets/App.css";
